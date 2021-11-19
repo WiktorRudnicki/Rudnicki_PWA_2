@@ -8,6 +8,7 @@
 <script>
 import ButtonGet from '@/components/ButtonGet.vue';
 import CardView from '@/components/CardView.vue';
+import axios from 'axios';
 
 export default {
   name: 'app',
@@ -23,9 +24,11 @@ export default {
   methods: {
     fetchData() {
       console.log('fetchData called');
+      this.employees = axios.get("http://localhost:3000/employees")
     },
     delEmployee() {
       console.log('delEmployee called');
+      axios.delete("http://localhost:3000/employees/:")
     },
   },
 };
