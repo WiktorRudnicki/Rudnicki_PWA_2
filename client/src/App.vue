@@ -37,10 +37,13 @@ export default {
       this.fetchData();
 
     },
+    updateAvailable() {
+      alert("There is an update available, please restart the app!")
+    }
   },
   created () {
     dotenv.config();
-    
+    document.addEventListener('swUpdated', this.updateAvailable, { once: true });
   }
 };
 </script>
