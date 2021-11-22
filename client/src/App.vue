@@ -22,13 +22,17 @@ export default {
     };
   },
   methods: {
-    fetchData() {
+    async fetchData() {
       console.log('fetchData called');
-      this.employees = axios.get("http://localhost:3000/employees")
+      let call = await axios({"url": "http://localhost:3000/employees", "method":"get"});
+      this.employees = call.data;
+
     },
-    delEmployee() {
-      console.log('delEmployee called');
-      axios.delete("http://localhost:3000/employees/:")
+    async delEmployee(ob) {
+      console.log(ob.id);
+      await axios({"url": "http://localhost:3000/employees/"+ ob.id, "method":"delete"});
+      this.fetchData();
+
     },
   },
 };
