@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="container d-flex flex-column justify-content-center align-items-center mt-5">
-    <h3>Willkommen bei der Service Worker Untersuchung!</h3>
+    <h3>Willkommen bei der Service Worker Untersuchung</h3>
     <ButtonGet @get="fetchData"></ButtonGet>
     <CardView :employees="employees" @del="delEmployee"></CardView>
   </div>
@@ -10,7 +10,6 @@
 import ButtonGet from '@/components/ButtonGet.vue';
 import CardView from '@/components/CardView.vue';
 import axios from 'axios';
-import dotenv from 'dotenv';
 
 export default {
   name: 'app',
@@ -42,7 +41,7 @@ export default {
     }
   },
   created () {
-    dotenv.config();
+  
     document.addEventListener('swUpdated', this.updateAvailable, { once: true });
   }
 };
