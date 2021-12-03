@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="container d-flex flex-column justify-content-center align-items-center mt-5">
-    <h3>Willkommen bei der Service Worker Untersuchung</h3>
+    <h3>Willkommen bei der Service Worker Untersuchung!</h3>
     <h4>Mein Kopf glüht wie ein Weinachtsbaum</h4>
     <img src="../public/images/employees.jpg"  height="300px" />
     <br>

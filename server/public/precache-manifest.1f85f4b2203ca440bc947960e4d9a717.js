@@ -1,11 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a04ff3fc68a2f68691a",
+    "revision": "17fde416be0574c118c5",
     "url": "/css/app.6e4a04f3.css"
   },
   {
     "revision": "a90f96cefdc4a630f588",
     "url": "/css/chunk-vendors.5d3035bc.css"
+  },
+  {
+    "revision": "183434f7da5cfd90317e11dbaa2f88c2",
+    "url": "/images/employees.jpg"
   },
   {
     "revision": "31287f1a79c128368c41fa51e5f6f045",
@@ -84,6 +88,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/images/portraits/women/88.jpg"
   },
   {
+    "revision": "183434f7da5cfd90317e11dbaa2f88c2",
+    "url": "/img/employees.183434f7.jpg"
+  },
+  {
     "revision": "31287f1a79c128368c41fa51e5f6f045",
     "url": "/img/portraits/men/20.jpg"
   },
@@ -160,12 +168,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/portraits/women/88.jpg"
   },
   {
-    "revision": "69aaa71ba881d839ec72e0e6c9ec0393",
+    "revision": "ed424a9fcd73f52494e541a38c3a3373",
     "url": "/index.html"
   },
   {
-    "revision": "6a04ff3fc68a2f68691a",
-    "url": "/js/app.ff028d06.js"
+    "revision": "17fde416be0574c118c5",
+    "url": "/js/app.b32d125b.js"
   },
   {
     "revision": "a90f96cefdc4a630f588",
@@ -178,5 +186,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "735ab4f94fbcd57074377afca324c813",
     "url": "/robots.txt"
+  },
+  {
+    "revision": "b2c2ab35abd0c16f14c40f28e6653f51",
+    "url": "/service-worker.js"
   }
 ]);
