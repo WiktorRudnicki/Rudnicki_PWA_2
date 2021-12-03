@@ -3,7 +3,7 @@
     {
       "id": "1",
       "gender": "male",
-      "name": { "title": "Dr", "first": "Wiktor", "last": "Rudnicki" },
+      "name": { "title": "Mr", "first": "Wiktor", "last": "Rudnicki" },
       "location": {
         "street": "1469 route de genas",
         "city": "saint-denis",
