@@ -25,7 +25,6 @@ self.addEventListener("message", (event) => {
   }
 });
 
-import {registerRoute} from 'workbox-routing';
 import {NetworkFirst} from 'workbox-strategies';
 
 registerRoute(
@@ -53,3 +52,4 @@ if (workbox) {
 } else {
   console.log(`Workbox didn't load`);
 }
+

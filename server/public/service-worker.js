@@ -1,4 +1,4 @@
-importScripts("/precache-manifest.3ad6f5843bf64ce673d7bf823942a08a.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("/precache-manifest.bc25bd4e66608148f92d923f7f3366d8.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 /**
  * Welcome to your Workbox-powered service worker!
@@ -27,7 +27,6 @@ self.addEventListener("message", (event) => {
   }
 });
 
-import {registerRoute} from 'workbox-routing';
 import {NetworkFirst} from 'workbox-strategies';
 
 registerRoute(
@@ -55,4 +54,5 @@ if (workbox) {
 } else {
   console.log(`Workbox didn't load`);
 }
+
 

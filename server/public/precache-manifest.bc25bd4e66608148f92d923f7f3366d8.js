@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5ecf9f1e684abb86cf6",
+    "revision": "d013a5a4adcf75b73642",
     "url": "/css/app.6e4a04f3.css"
   },
   {
@@ -168,12 +168,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/portraits/women/88.jpg"
   },
   {
-    "revision": "8112b188aeb46cabf510fa453e30fb05",
+    "revision": "eb7d0a9c8ec5c362a1fd2df730532411",
     "url": "/index.html"
   },
   {
-    "revision": "f5ecf9f1e684abb86cf6",
-    "url": "/js/app.37c83d3d.js"
+    "revision": "d013a5a4adcf75b73642",
+    "url": "/js/app.dab5c7f8.js"
   },
   {
     "revision": "a90f96cefdc4a630f588",
@@ -186,5 +186,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "735ab4f94fbcd57074377afca324c813",
     "url": "/robots.txt"
+  },
+  {
+    "revision": "c7b97f36476fd64abca50e0d6435de9a",
+    "url": "/service-worker.js"
   }
 ]);
