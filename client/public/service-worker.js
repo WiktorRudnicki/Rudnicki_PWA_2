@@ -25,6 +25,15 @@ self.addEventListener("message", (event) => {
   }
 });
 
+import {registerRoute} from 'workbox-routing';
+import {NetworkFirst} from 'workbox-strategies';
+
+registerRoute(
+  ({url}) => url.pathname('http://localhost:3000/employees'),
+  new NetworkFirst()
+);
+
+
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
  * requests for URLs in the manifest.
@@ -34,7 +43,6 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 if (workbox) {
   console.log(`Workbox is loaded`);
-  workbox.setConfig({ debug: true });
   workbox.precaching.precacheAndRoute(self.__precacheManifest);
   workbox.routing.registerRoute(
     "/employees",
